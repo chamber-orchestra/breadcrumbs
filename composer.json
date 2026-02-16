@@ -1,0 +1,33 @@
+{
+    "name": "chamber-orchestra/breadcrumbs",
+    "type": "library",
+    "description": "Breadcrumb collection for Symfony applications",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5",
+        "symfony/http-foundation": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChamberOrchestra\\Breadcrumbs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "analyse": "vendor/bin/phpstan analyse",
+        "cs-check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "vendor/bin/php-cs-fixer fix"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
