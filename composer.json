@@ -1,8 +1,24 @@
 {
     "name": "chamber-orchestra/breadcrumbs",
     "type": "library",
-    "description": "Breadcrumb collection for Symfony applications",
+    "description": "Lightweight, iterable breadcrumb collection for Symfony 8 applications",
+    "keywords": [
+        "breadcrumbs",
+        "navigation",
+        "symfony",
+        "php",
+        "twig",
+        "array-access",
+        "iterable"
+    ],
+    "homepage": "https://github.com/chamber-orchestra/breadcrumbs",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamber Orchestra Contributors",
+            "homepage": "https://github.com/chamber-orchestra/breadcrumbs/graphs/contributors"
+        }
+    ],
     "require": {
         "php": "^8.5",
         "symfony/http-foundation": "^8.0"
