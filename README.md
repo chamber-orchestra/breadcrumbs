@@ -4,7 +4,7 @@
 [![Code Style: Symfony](https://img.shields.io/badge/code%20style-Symfony-black.svg)](https://symfony.com/doc/current/contributing/code/standards.html)
 [![PHPStan Level max](https://img.shields.io/badge/PHPStan-level%20max-brightgreen.svg)](https://phpstan.org/)
 [![PHP 8.5](https://img.shields.io/badge/PHP-8.5-777BB4.svg)](https://www.php.net/)
-[![Symfony 8.0](https://img.shields.io/badge/Symfony-8.0-000000.svg)](https://symfony.com/)
+[![Symfony 8.2](https://img.shields.io/badge/Symfony-8.2-000000.svg)](https://symfony.com/)
 [![Latest Stable Version](https://poser.pugx.org/chamber-orchestra/breadcrumbs/v)](https://packagist.org/packages/chamber-orchestra/breadcrumbs)
 [![License](https://poser.pugx.org/chamber-orchestra/breadcrumbs/license)](https://packagist.org/packages/chamber-orchestra/breadcrumbs)
 
